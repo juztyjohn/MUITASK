@@ -4,7 +4,7 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 import Item from '../Item';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { useWindowDimensions } from "./useWindowDimensions";
+import { useWindowDimensions } from "../useWindowDimensions";
 
 const theme = createTheme({
   breakpoints: {
